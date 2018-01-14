@@ -1,0 +1,187 @@
+body{
+background-color: white;
+}
+
+.header-main {
+  background-image: url(http://dma-upd.org/wp-content/uploads/daily-painters-abstract-colorful-oil-painting_342105.jpg);
+  background-size:cover;
+  height:100vh;
+  background-attachment: fixed;
+  text-align: center;
+  color: blue
+  font-style:bold;
+  font-size:40px;
+
+}
+
+.row {
+  margin-right:0px;
+  padding-bottom: 20px;
+}
+.welcome {
+  padding-top: 50vh;
+  color:white;
+  font-weight: bolder;
+}
+
+.header-blue {
+background-color: #9BE3FF;
+text-align: center;
+}
+
+.header-red {
+  background-color: #FC8400;
+
+}
+
+.container {
+  padding: 0px;
+  margin: 0px;
+  max-width: none;
+}
+
+.card {
+  padding-left: 15px;
+
+}
+
+.profile-image {
+  border-radius:50%;
+  margin: auto;
+  width: 40%;
+  padding-bottom: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.projects {
+  width: 80%;
+  padding-bottom:20px;
+  }
+
+  .resume-wrap {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  }
+
+  .resume-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #af0303;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    visibility: hidden;
+    opacity: 0;
+    height:135px;
+    padding-top:5vh;
+}
+
+.resume-wrap:hover .resume-description {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+.bg-img {
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+  background-size: cover;
+}
+
+.portfolio {
+  color: white;
+  font-style:bold;
+  text-align: center;
+}
+
+summary {
+  text-align: center;
+}
+
+.port-text {
+  color:black;
+}
+
+.port-summary{
+  margin:0;
+}
+
+.social {
+  padding-left:85px;
+  padding-right: 10px;
+}
+
+.social-media{
+  text-align: center;
+  }
+
+.Instagram {
+  word-wrap: normal;
+  text-align: center;
+  margin:4px;
+}
+
+.Facebook {
+  text-align: center;
+  margin: 4px;
+}
+
+.LinkedIn {
+  text-align: center;
+  margin: 4px;
+}
+
+.fa {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 100px;
+
+}
